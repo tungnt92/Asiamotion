@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>mod_our_team_contact_us</name>
+	<author>WN</author>
+	<creationDate>October 2012</creationDate>
+	<copyright>Copyright 2012 JoomSpirit</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>contact@joomspirit.com</authorEmail>
+	<authorURL>http://www.joomspirit.com</authorURL>
+	<version>2.0</version>
+	<description>     
+    	<![CDATA[
+		<style type="text/css">
+		
+			.panel {
+			background: #ddd;
+			background-image: -moz-linear-gradient(100% 100% 90deg, rgba(225,225,225,1), rgba(255,255,255,1));
+			background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,1)), to(rgba(225,225,225,1)));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e1e1e1');
+			-moz-border-radius: 2px 2px 2px 2px;
+			-webkit-border-radius: 2px 2px 2px 2px;
+			border-radius: 2px 2px 2px 2px;
+			-moz-box-shadow: 1px 1px 2px #ddd;
+			-webkit-box-shadow: 1px 1px 2px #ddd;
+			border-box-shadow: 1px 1px 2px #ddd;
+			border: 1px solid #ccc;
+			padding: 6px 10px;		
+			color: #444;		
+			text-decoration: none;
+			}
+			
+			.pane-sliders .title {
+			padding: 4px;
+			}
+			
+			.pane-sliders .panel h3 {
+			border-bottom:none;
+			}
+			
+			.panelform a {
+			color:#828627;
+			}
+			
+			table.admintable td.paramlist_key {
+			font-weight:normal;text-transform:uppercase;
+			text-align:left;
+			}
+			
+			table.admintable td.paramlist_value label {
+			text-transform:none;
+			}
+			
+			table.admintable td.key, table.admintable td.paramlist_key,.pane-sliders .content,.pane-sliders .panel h3, div.panel fieldset {
+			background:none;
+			}
+			
+			div.panel fieldset {
+			margin-bottom:0;
+			padding-bottom:0;
+			}
+			
+			table.admintable td.key, table.admintable td.paramlist_key {
+			border:none;
+			}
+			
+			form label, form span.faux-label {
+			color:#394a12;
+			}
+			
+			.panelform input, .panelform select {
+			padding:5px;
+			border-radius:3px;
+			}
+			
+			.panelform input[type="radio"] {
+			margin: 10px 5px 0 0;
+			}
+			
+			#jform_params_target {
+			width: 110px;
+			}	
+			
+			fieldset.panelform label, fieldset.panelform div.paramrow label, fieldset.panelform span.faux-label {
+			padding: 5px 5px 0 0;
+			}
+			
+			.pane-toggler-down span {
+			padding: 7px 0px 7px 40px;
+			padding-left:30px!important;
+			font-size: 15px;
+			font-weight:normal;
+		  	color:#ec6104;
+			}
+			
+			.pane-toggler span {
+			padding: 7px 0px 7px 40px;
+			padding-left:30px!important;
+			font-size: 15px;
+			font-weight:normal;
+			color:#394a12;
+			}
+			
+			.pane-toggler span:hover {
+			color:#146295;
+			}
+			
+			span.spacer {
+			display:block;
+			clear:both;
+			margin-bottom:20px;
+			padding-top:20px;
+			border-bottom : 2px dotted #aaa;
+			}
+			
+			span.spacer label {
+			display:none;
+			}
+			
+			.button2-left {
+			margin : 5px 5px 0 5px ;
+			}
+			
+			.panelform a {
+    		color: #555;
+			}
+			
+			.panelform a:hover {
+    		color: #ec6104;
+			}
+			
+			.adminformlist .fltlft span {
+    		display: inline-block;
+    		margin: 9px 0 0 9px;
+			}
+			
+		</style>
+		
+		<div style="color:#222;">
+		This free module allows you to display a responsive slideshow based on the fexslider JQuery script.
+		<br /><br />
+		<p style="color:#666; font-size:90%;">Extension created by <a href="http://www.joomspirit.com" target="_blank" title="" >JoomSpirit</a></p>
+		</div>
+		]]>
+	</description>
+
+
+
+	<description>A responsive slideshow module based on the fexslider JQuery script.</description>
+	
+	
+	<config>
+		<fields name="params">
+		
+			<fieldset name="general" label="General settings">
+	
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,308 @@
+div#rsmg_component_main {
+	overflow: hidden;
+	width: 100%;
+}
+
+div#rsmg_main {
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #424242;
+	line-height: 1.4em;
+	position: relative;
+	float: left;
+}
+
+.rsmg_fullwidth {
+	width: 100%;
+}
+	
+div#rsmg_main ul#rsmg_gallery {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+	
+div#rsmg_main ul#rsmg_gallery li {	
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	background: none;
+}
+
+ul#rsmg_gallery li#rsmg_loader_container {
+	height: 96px;
+}
+
+ul#rsmg_gallery li#rsmg_loader_container div{
+	height: 96px;
+	background: none;
+	background: url(../images/loader.gif) no-repeat center center;
+	box-shadow: none;
+	border: none;
+}
+
+ul#rsmg_gallery li div.rsmg_item_container {
+	text-align: center;
+	/*width: 285px;*/
+	float: left;
+	border: 1px solid #cccccc;
+	background: white;
+	padding: 10px;	
+	box-shadow: 5px 5px 0 #dedede;
+	font-size: 11px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+ul#rsmg_gallery li span.rsmg_item_description {
+	display: block;
+	height: 64px;
+	overflow: hidden;
+}
+	
+ul#rsmg_gallery li div.rsmg_item_container a {
+	color: #a00000;
+	text-decoration: none;
+}
+	
+ul#rsmg_gallery li div.rsmg_item_container a:hover,
+ul#rsmg_gallery li div.rsmg_item_container a:focus,
+ul#rsmg_gallery li div.rsmg_item_container a:active {
+	color: #d20303;
+	background: none;
+}
+	
+ul#rsmg_gallery li div.rsmg_item_container a.rsmsg_title {
+	text-align: center;
+	padding: 7px 0 0 0;	
+	display: block;
+	font-weight: bold;	
+	font-size: 12px;
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px dotted #cccccc;
+}
+	
+#rsmg_main a.rsmg_big_button {
+	background: none repeat scroll 0 0 #E3E3E3;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 1px 1px #F6F6F6 inset;
+    color: #333333;    
+    padding: 8px 0 9px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF; 
+	text-decoration: none;
+	clear: both;   
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+	
+#rsmg_main a:hover.rsmg_big_button,
+#rsmg_main a:focus.rsmg_big_button,
+#rsmg_main a:active.rsmg_big_button
+{
+	background: none repeat scroll 0 0 #D9D9D9;
+    box-shadow: 0 0 1px 1px #EAEAEA inset;
+    color: #222222;
+    cursor: pointer;
+}
+	
+div#rsmg_image_container {
+	top: 20px;
+	border: 1px solid #cccccc;
+	background: white;
+	padding: 10px;	
+	box-shadow: 5px 5px 0 #dedede;
+	font-size: 11px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+	
+
+div#rsmg_image_container a {
+	color: #a00000;
+	text-decoration: none;
+}
+	
+div#rsmg_image_container a:hover {
+	color: #d20303;
+}
+	
+div#rsmg_image_container h2.rsmsg_title {
+	text-align: center;
+	padding: 7px 0 0 0;	
+	display: block;
+	font-weight: bold;	
+	font-size: 12px;
+}
+	
+div#rsmg_image_container p {
+	border-top: 1px dotted #cccccc;
+	padding-top: 7px;
+	margin-top: 7px;
+}
+	
+#rsmg_arrow_left a {
+	width: 9px;
+	height: 13px;
+	background: #ffffff url(../images/arrow-left.png) no-repeat center center;
+	display: block;
+	border: 1px solid #cccccc;	
+	padding: 10px;	
+	box-shadow: 2px 2px 0 #dedede;
+	font-size: 11px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	position: absolute;
+	left: -50px;
+	top: 250px;
+}
+	
+div#rsmg_main #rsmg_arrow_left a:hover,
+div#rsmg_main #rsmg_arrow_left a:focus,
+div#rsmg_main #rsmg_arrow_left a:active {
+	background: #f7f7f7 url(../images/arrow-left.png) no-repeat center center;
+}
+	
+#rsmg_arrow_right a {
+	width: 9px;
+	height: 13px;
+	background: #ffffff url(../images/arrow-right.png) no-repeat center center;
+	display: block;
+	border: 1px solid #cccccc;	
+	padding: 10px;	
+	box-shadow: 2px 2px 0 #dedede;
+	font-size: 11px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	position: absolute;
+	right: -50px;
+	top: 250px;
+}
+	
+div#rsmg_main #rsmg_arrow_right a:hover,
+div#rsmg_main #rsmg_arrow_right a:focus,
+div#rsmg_main #rsmg_arrow_right a:active {
+	background: #f7f7f7 url(../images/arrow-right.png) no-repeat center center;
+}
+	
+div#rsmg_thumb_container > img {
+	position: relative;
+	z-index: 4;
+	margin: 0 auto;
+}
+
+div#rsmg_thumb_container {
+	position: relative;
+	text-align: center;
+}
+
+div#rsmg_thumb_container .rsmg_back {
+	position: absolute;
+	z-index: 5;
+	top: 13px;
+	left: 13px;
+	background: white;
+	padding: 2px 5px;	
+	border: 1px solid #cccccc;
+}
+
+div#rsmg_thumb_container .rsmg_back a {
+	color: #727272;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div#rsmg_thumb_container .rsmg_back a:hover,
+div#rsmg_thumb_container .rsmg_back a:focus,
+div#rsmg_thumb_container .rsmg_back a:active {
+	background: none;
+}
+
+div#rsmg_thumb_container .rsmg_toolbox {
+	padding: 2px 5px 2px 20px;
+	border: 1px solid #cccccc;
+	float: left;
+	margin-right: 5px;
+	color: #727272;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+div#rsmg_thumb_container .rsmg_views {
+	background: #ffffff url(../images/eye.png) no-repeat 5px center;
+}
+
+div#rsmg_thumb_container .rsmg_download {
+	background: #fff url(../images/download.png) no-repeat 5px center;
+}
+
+div#rsmg_thumb_container .rsmg_calendar {
+	background: #fff url(../images/calendar.png) no-repeat 5px center;
+}
+
+div#rsmg_thumb_container .rsmg_download a {
+	color: #D20303;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+div#rsmg_thumb_container .rsmg_download a:hover,
+div#rsmg_thumb_container .rsmg_download a:focus,
+div#rsmg_thumb_container .rsmg_download a:active {
+	background: none;
+}
+
+#rsmg_loading {	
+	position: absolute;
+	top: 50%;
+	height: 50%;
+	z-index: 1;
+}
+
+#rsmg_tags strong {
+	color: #d20303;
+	font-weight: bold;
+}
+
+/* clear */
+
+.rsmg_clear {
+	width: 100%;
+	clear: both;
+	display: block;
+	height: 1px;
+	line-height: 1px;
+	font-size: 1px;
+}
+
+.rsmg_float_left {
+	float: left;
+}
+
+.rsmg_float_right {
+	float: right;
+}
+
+div#rsmg_footer {
+	text-align: center !important;
+	opacity: 0.5;
+	font-size: 11px;
+}
+
+.rsmg_spacer {
+	display: block;
+	height: 7px;
+	width: 100%;
+	clear: both;
+}

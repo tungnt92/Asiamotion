@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>mod_camp_content2</name>
+	<author>WN</author>
+	<creationDate>October 2012</creationDate>
+	<copyright>Copyright 2012 JoomSpirit</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>contact@joomspirit.com</authorEmail>
+	<authorURL>http://www.joomspirit.com</authorURL>
+	<version>2.0</version>
+	<description>     
+    	
+	</description>
+
+
+
+	<description>A responsive slideshow module based on the fexslider JQuery script.</description>
+	
+	
+	<config>
+		<fields name="params">
+                        <fieldset name="general" label="General settings">
+                            <field name="article_id1" type="text" default="0" label="Article Id Camp Left" description="Article Id Camp Left"/>
+						</fieldset>				
+		</fields>
+	</config>
+</extension>
